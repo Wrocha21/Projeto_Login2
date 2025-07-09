@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Login {
+        width: 420px ;
+        height: 520px;
+    }
+
+    form > a {
+        width: 140px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #Login {
+        width: 490px;
+        height: 520px;
+    }
+
+    form > a {
+        width: 140px;
+        background: none;
+        border: 2px solid white;
+        color: white;
+    }
+
+    form > a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    #Login {
+        width: 540px;
+        height: 520px;
+    }
+    
+    form > a {
+        width: 140px;
+        background: none;
+        border: 2px solid white;
+        color: white;
+    }
+
+    form > a:hover {
+        background-color: white;
+        color: black;
+    }
+
+}

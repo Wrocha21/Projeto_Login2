@@ -36,6 +36,8 @@ main {
     width: 300px;
     border: 1px solid white;
     border-radius: 20px;
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
     
     backdrop-filter: blur(5px);
     transform: translate(-50%, -50%);
@@ -92,6 +94,8 @@ form > input[type=submit] {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     color: black;
+
+    font-size: 0.9em;
 }
 
 form > input[type=submit]:hover {
@@ -101,16 +105,31 @@ form > input[type=submit]:hover {
 
 form > a {
     display: block;
-    color: white;
+    text-align: center;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-top: 10px;
-    width: 140px;
     padding: 5px;
     border-radius: 10px;
-    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
 }
 
 form > a:hover {
-    background-color:  rgba(240, 239, 239, 0.637);
-    color: rgb(79, 79, 80);
+    background-color:  rgba(161, 160, 160, 0.87);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background: none;
+    border: 1px solid white;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
 }
