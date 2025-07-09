@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/styles.css">
+    <link rel="stylesheet" href="Estilos/MediaQueries.css">
+</head>
+
+<body>
+    <main>
+        <section id="Login">
+            <div class="Imagem">
+                
+            </div>
+            <div id="Formulario">
+                <h1>Login</h1>
+                <p>Bem-Vindo ao meu Site!, Faça Login para Continuar</p>
+                <form action="Login.php" method="post" autocomplete="on">
+                  <div class="campo">
+                      <div class="inputs">
+                        <label for="1login"></label>
+                        <input class="inp" type="email" name="login" id="1login" placeholder="Seu E-mail" autocomplete="email">
+                      </div>
+                  </div>
+                    <div class="campo">
+                        <div class="inputs">
+                            <label for="1senha"></label>
+                            <input class="inp" type="password" name="senha" id="1senha" required placeholder="Sua Senha" mixlength="8"
+                            maxlength="20" autocomplete="current-password">
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <input type="submit" value="Entrar">
+                  <a href="">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
